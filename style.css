@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+}
+
+/* Terapkan gaya saat list-item memiliki kelas 'completed' */
+.task-item.completed .task-text {
+  text-decoration: line-through; /* Coret teks untuk tugas yang selesai */
+  color: #6c757d; /* Ubah warna teks menjadi abu-abu */
+}
+
+.task-item {
+  display: flex;
+  align-items: center; /* Membuat semua item sejajar secara vertikal */
+  transition: background-color 0.2s;
+}
+
+.task-item:hover {
+  background-color: #f1f1f1; /* Efek hover pada setiap item tugas */
+}
+
+.task-text {
+  flex-grow: 1; /* Membuat teks mengisi ruang yang tersedia */
+  margin-left: 10px; /* Jarak antara checkbox dan teks */
+}
+
+.delete-btn {
+  border: none;
+  background: none;
+  color: #dc3545; /* Warna merah untuk tombol hapus */
+  font-size: 1.2rem;
+}

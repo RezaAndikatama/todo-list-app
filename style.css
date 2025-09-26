@@ -49,6 +49,12 @@ body {
   color: var(--text-color);
   border-color: var(--border-color);
 }
+
+/* Tambahkan gap pada input edit agar ada jarak dengan checkbox */
+.edit-input {
+  margin-left: 0.75rem;
+}
+
 .form-control::placeholder {
   color: #6c757d;
 }
